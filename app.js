@@ -9,8 +9,8 @@ new Vue({
     },
     methods:{
         saveDetail: function() {
-            this.showEmail = this.email;
-            this.showPassword = this.password;
+            this.showEmail = "Email: " + this.email;
+            this.showPassword = "password: " + this.password;
         }
     }
 });
